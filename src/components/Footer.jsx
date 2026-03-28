@@ -20,15 +20,13 @@ const socialLinks = [
   },
   {
     name: 'X',
-    href: '#',
+    href: 'https://x.com/darinmasri4erie',
     icon: <path d="M4 4h4.6l4.1 5.53L17.4 4H20l-6.14 7.03L20 20h-4.6l-4.45-5.99L5.7 20H3l6.33-7.25L4 4Z" />,
-    disabled: true,
   },
   {
     name: 'TikTok',
-    href: '#',
+    href: 'https://www.tiktok.com/@darinmasri4erie?is_from_webapp=1&sender_device=pc',
     icon: <path d="M14 4c.35 1.85 1.41 3.08 3 3.65V10a6.83 6.83 0 0 1-3-.83v4.85a4.52 4.52 0 1 1-4.52-4.52c.18 0 .35.01.52.03v2.47a2.2 2.2 0 1 0 1.68 2.14V4H14Z" />,
-    disabled: true,
   },
 ];
 

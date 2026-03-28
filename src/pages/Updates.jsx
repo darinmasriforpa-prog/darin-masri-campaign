@@ -9,6 +9,16 @@ const updateChannels = [
     href: 'https://www.instagram.com/darinmasri4erie/',
     description: 'Photos, campaign moments, and visual updates from the trail.',
   },
+  {
+    name: 'TikTok',
+    href: 'https://www.tiktok.com/@darinmasri4erie?is_from_webapp=1&sender_device=pc',
+    description: 'Short-form videos, campaign highlights, and direct outreach updates.',
+  },
+  {
+    name: 'X',
+    href: 'https://x.com/darinmasri4erie',
+    description: 'Fast campaign updates, commentary, and links to the latest outreach.',
+  },
 ];
 
 export default function Updates() {
@@ -28,7 +38,7 @@ export default function Updates() {
       </section>
 
       <section className="section-padding pt-0">
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {updateChannels.map((channel) => (
             <article key={channel.name} className="panel p-8">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-primary-700">
