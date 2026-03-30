@@ -1,4 +1,4 @@
-import darinImage from '../assets/darin5.jpeg';
+import darinImage from '../assets/darin7.jpeg';
 
 export default function About() {
   return (
@@ -10,7 +10,7 @@ export default function About() {
               <img
                 src={darinImage}
                 alt="Darin Masri"
-                className="aspect-[4/5] w-full object-cover"
+                className=" w-full object-cover"
               />
             </div>
           </div>
