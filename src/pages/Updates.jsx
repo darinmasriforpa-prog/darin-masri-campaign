@@ -1,7 +1,7 @@
 const updateChannels = [
   {
     name: 'Facebook',
-    disabled: true,
+    href: 'https://www.facebook.com/people/DarinMasri4Erie/61574368764026/',
     description: 'Campaign announcements, local events, and supporter updates.',
   },
   {

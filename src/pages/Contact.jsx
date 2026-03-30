@@ -5,9 +5,8 @@ import { useSearchParams } from 'react-router-dom';
 const socialLinks = [
   {
     name: 'Facebook',
-    href: '#',
-    label: 'Facebook coming soon',
-    disabled: true,
+    href: 'https://www.facebook.com/people/DarinMasri4Erie/61574368764026/',
+    label: 'Campaign Facebook',
     icon: (
       <path d="M22 12.07C22 6.51 17.52 2 12 2S2 6.51 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02H7.9v-2.9h2.54V9.86c0-2.5 1.48-3.89 3.76-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.9h-2.34V22c4.78-.75 8.44-4.91 8.44-9.93Z" />
     ),
